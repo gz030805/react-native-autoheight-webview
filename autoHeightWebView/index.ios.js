@@ -86,7 +86,7 @@ export default class AutoHeightWebView extends ImmutableComponent {
         return (
             <Animated.View style={[{
                 opacity: enableAnimation ? this.opacityAnimatedValue : 1,
-                width: ScreenWidth,
+                width: ScreenWidth-10,
                 height: height + heightOffset,
                 backgroundColor: 'transparent'
             }, style]}>
